@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Calculator",
+    "slug": "sokyo-calculator",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#FEF7FF"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.sokyo.calculator"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#6750A4"
+      },
+      "package": "com.sokyo.calculator"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "scheme": "calc"
+  }
+}
